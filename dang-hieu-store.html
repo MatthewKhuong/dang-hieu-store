@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng Hiếu Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+
+    :root {
+      color-scheme: light only;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-neutral-900 text-white">
+  <div class="mx-auto max-w-sm min-h-screen bg-neutral-900">
+    <!-- Hero image -->
+    <div class="relative w-full">
+      <img src="./store-image.jfif" alt="Store photo" class="w-full h-60 object-cover">
+      <!-- Avatar logo -->
+      <div class="absolute -bottom-10 left-1/2 -translate-x-1/2">
+        <img src="./dang-hieu.jfif" class="w-28 h-28 rounded-md border-4 border-neutral-900 shadow-xl" alt="Logo">
+      </div>
+    </div>
+
+    <div class="px-5 pt-14 pb-16">
+      <!-- Title + verified -->
+      <div class="text-center space-y-2">
+        <h1 class="text-2xl font-extrabold leading-tight">
+          🍏 ĐĂNG HIẾU STORE
+          <span class="align-middle inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-500 ml-1">
+            <!-- verified check -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="white">
+              <path
+                d="M16.707 5.293a1 1 0 010 1.414l-7.071 7.071a1 1 0 01-1.414 0L3.293 9.95a1 1 0 111.414-1.414l3.121 3.121 6.364-6.364a1 1 0 011.515 0z" />
+            </svg>
+          </span>
+        </h1>
+        <div
+          class="mt-8 rounded-2xl border-2 border-cyan-400 p-4 sm:p-5 bg-neutral-900 shadow-[0_0_20px_2px_rgba(34,211,238,0.12)]">
+          <!-- NEW: Policy / Commitment Section -->
+          <h3 class="mt-1 text-[15px] font-semibold text-gray-100">🛡️ CHÍNH SÁCH BẢO HÀNH, HẬU MÃI VÀ CAM KẾT</h3>
+
+          <!-- 1. Cam kết -->
+          <div class="mt-4">
+            <div class="font-bold text-[15px]">1️⃣ CAM KẾT 🤝</div>
+            <ul class="mt-2 space-y-2 text-[14px] leading-relaxed">
+              <li>
+                <span class="text-cyan-300">➖ HÀNG ZIN NGUYÊN BẢN_KHÔNG ZIN TẶNG MÁY</span><br />
+                • Khách hàng mua máy tại ĐH có thể mang máy qua các cửa hàng khác để mở máy kiểm tra bên trong xem có
+                chuẩn zin hay không mà vẫn được bảo hành bình thường.
+              </li>
+              <li>
+                <span class="text-cyan-300">➖ HÀNG THANH LÝ</span> _ cam kết báo đúng tình trạng, không đúng tặng máy.
+              </li>
+            </ul>
+          </div>
+
+          <!-- 2. Chế độ bảo hành -->
+          <div class="mt-5">
+            <div class="font-bold text-[15px]">2️⃣ CHẾ ĐỘ BẢO HÀNH</div>
+            <ul class="mt-2 space-y-2 text-[14px] leading-relaxed">
+              <li>➖ Bảo hành lỗi 1 đổi 1 tất cả các lỗi phần cứng do NSX (màn hình sọc, nguồn, Face ID, phím cứng vật
+                lý,…). Lỗi đổi luôn chiếc máy khác tương tự. Không giữ máy lại sửa.</li>
+              <li>➖ Mọi sản phẩm <span class="font-semibold">QUỐC TẾ</span> đều được bảo hành LOCK trọn đời, nếu LOCK sẽ
+                thu mua lại bằng giá bán lẻ cùng thời điểm. Trường hợp máy xấu vỡ hỏng sẽ trừ phí.</li>
+              <li>➖ <span class="font-semibold">GÓI BH MẶC ĐỊNH</span> (giá niêm yết có sẵn gói bảo hành này): Lỗi 1 đổi
+                1 trong 3 tháng.</li>
+              <li>➖ <span class="font-semibold">GÓI BH 6 THÁNG</span> (+300k đối với máy dưới 10tr, 500k đối với máy
+                trên 10tr): Lỗi 1 đổi 1 trong 6 tháng.</li>
+            </ul>
+            <div class="mt-2 text-[13px] text-yellow-300">⚠️ LƯU Ý: Không áp dụng với hàng thanh lý; hàng thanh lý sẽ có
+              chế độ bảo hành riêng dựa trên từng sản phẩm.</div>
+          </div>
+
+          <!-- 3. Hậu mãi -->
+          <div class="mt-5">
+            <div class="font-bold text-[15px]">3️⃣ CHẾ ĐỘ HẬU MÃI</div>
+            <ul class="mt-2 space-y-2 text-[14px] leading-relaxed">
+              <li>➖ Thay pin miễn phí trong thời gian bảo hành (&lt;80%).</li>
+              <li>➖ Rơi vỡ hỗ trợ sửa chữa giá thợ.</li>
+            </ul>
+          </div>
+
+          <!-- 4. Bán thẳng cho DH -->
+          <div class="mt-5">
+            <div class="font-bold text-[15px]">4️⃣ Bán thẳng cho DH</div>
+            <ul class="mt-2 space-y-2 text-[14px] leading-relaxed">
+              <li>➖ Máy ngoài và máy mua của ĐH đã hết bảo hành thu lại <span class="font-semibold">90%</span> giá bán
+                lẻ cùng thời điểm.</li>
+              <li>➖ Máy mua của ĐH còn bảo hành thu lại <span class="font-semibold">95%</span> giá bán lẻ cùng thời
+                điểm.</li>
+            </ul>
+          </div>
+
+          <!-- 5. Bán lại và lên đời -->
+          <div class="mt-5">
+            <div class="font-bold text-[15px]">5️⃣ Bán lại và lên đời máy DH</div>
+            <ul class="mt-2 space-y-2 text-[14px] leading-relaxed">
+              <li>➖ Máy ngoài và máy mua của ĐH đã hết bảo hành thu lại <span class="font-semibold">95%</span> giá bán
+                lẻ cùng thời điểm.</li>
+              <li>➖ Máy mua của DH còn bảo hành thu lại <span class="font-semibold">100%</span> giá bán lẻ cùng thời
+                điểm; máy mới lên đời sẽ được bảo hành dựa trên thời gian bảo hành còn lại.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-3xl pt-1">👇👇👇</div>
+      </div>
+      <!-- 6️⃣ Thông tin liên hệ & chi nhánh -->
+      <div
+        class="mt-8 rounded-2xl border-2 border-cyan-400 p-4 sm:p-5 bg-neutral-900 shadow-[0_0_20px_2px_rgba(34,211,238,0.12)]">
+        <h2 class="text-base text-cyan-300">🌐 CHÍNH SÁCH MUA ONLINE & THÔNG TIN LIÊN HỆ</h2>
+
+        <ul class="mt-3 space-y-3 text-[14px] leading-relaxed">
+          <li>🌐 <span class="text-cyan-300 font-semibold">Khách hàng mua online</span> sẽ được <span
+              class="text-yellow-300">freeship</span>, bao gồm cả chi phí gửi đổi trả nếu máy có phát sinh lỗi.</li>
+          <li>🏡 <span class="font-semibold">Địa chỉ:</span> ĐĂNG HIẾU STORE — 25 Vũ Duệ, Nông Trang, Phú Thọ</li>
+          <li>📌 <span class="font-semibold">Chi nhánh:</span> Trúc Lâm, Nam Cường, Thổ Trang, Phú Thọ</li>
+          <li>📌 <span class="font-semibold">Chi nhánh:</span> Tân Phú, Vĩnh Thành, Phú Thọ</li>
+          <li>☎️ <span class="font-semibold">Hotline:</span>
+            <span class="text-yellow-300 font-bold">0981.319.928</span> -
+            <span class="text-yellow-300 font-bold">0979.399.430</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- CTA buttons -->
+      <div class="mt-6 space-y-4">
+        <!-- Button 1: Facebook -->
+        <a href="https://www.facebook.com/share/1CoPDmMTCB/?mibextid=wwXIfr" class="group block">
+          <div
+            class="relative rounded-xl border-2 border-cyan-400 p-4 pr-12 bg-neutral-900 transition shadow-[0_0_0_0_rgba(0,0,0,0)] group-hover:shadow-[0_0_20px_2px_rgba(34,211,238,0.35)]">
+            <div class="flex items-center gap-3">
+              <div class="shrink-0 h-10 w-10 rounded-md grid place-items-center border-2 border-cyan-400">
+                <!-- facebook icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 fill-current text-cyan-400">
+                  <path
+                    d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5 3.66 9.14 8.44 9.93v-7.02H7.9V12.1h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56v1.97h2.77l-.44 2.88h-2.33V22c4.78-.79 8.44-4.93 8.44-9.93z" />
+                </svg>
+              </div>
+              <div class="flex-1 text-[15px]">
+                Nhắn fanpage FB báo giá 24/24 Auto
+              </div>
+              <div class="absolute right-3 top-1/2 -translate-y-1/2">
+                <!-- bell -->
+                <div class="h-9 w-9 rounded-md grid place-items-center border-2 border-cyan-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    class="h-5 w-5 fill-current text-cyan-400">
+                    <path
+                      d="M12 2a6 6 0 00-6 6v3.586l-1.707 1.707A1 1 0 005 15h14a1 1 0 00.707-1.707L18 11.586V8a6 6 0 00-6-6zm0 20a3 3 0 003-3H9a3 3 0 003 3z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Button 2: Zalo group -->
+        <a href="https://zalo.me/g/fiulfg883" class="group block">
+          <div
+            class="relative rounded-xl border-2 border-cyan-400 p-4 bg-neutral-900 pr-4 transition shadow-[0_0_0_0_rgba(0,0,0,0)] group-hover:shadow-[0_0_20px_2px_rgba(34,211,238,0.35)]">
+            <div class="flex items-center gap-3">
+              <div class="shrink-0 h-10 w-10 rounded-md grid place-items-center border-2 border-cyan-400">
+                <!-- clock icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5 fill-current text-cyan-400">
+                  <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 10.414l3.293 3.293-1.414 1.414L11 13V7h2v5.414z" />
+                </svg>
+              </div>
+              <div class="flex-1 text-[15px] leading-snug">
+                <div class="font-semibold">NHÓM 1 ZALO - SĂN SALES & BÁO GIÁ IPHONE</div>
+                <div class="text-gray-300 text-[13px]">(Giữ nút ở đây -> chọn mở liên kết là vào được nhóm)</div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Button 3: TikTok -->
+        <a href="https://www.tiktok.com/@danghieu5878?_t=ZS-90U7VvPDHts&_r=1" target="_blank" class="group block">
+          <div
+            class="relative rounded-xl border-2 border-cyan-400 p-4 pr-12 bg-neutral-900 transition shadow-[0_0_0_0_rgba(0,0,0,0)] group-hover:shadow-[0_0_20px_2px_rgba(34,211,238,0.35)]">
+            <div class="flex items-center gap-3">
+              <div class="shrink-0 h-10 w-10 rounded-md grid place-items-center border-2 border-cyan-400">
+                <!-- TikTok icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                  class="h-6 w-6 fill-current text-cyan-400">
+                  <path
+                    d="M168 40.3a47.3 47.3 0 0 0 24 6.6V24a71.4 71.4 0 0 1-24-4V40.3zM192 72a72.1 72.1 0 0 1-24-4.1v72a44 44 0 1 1-44-44 45.7 45.7 0 0 1 12 1.6V72a73.7 73.7 0 0 0-12-1 72 72 0 1 0 72 72V72z" />
+                </svg>
+              </div>
+              <div class="flex-1 text-[15px]">
+                TikTok
+              </div>
+              <div class="absolute right-3 top-1/2 -translate-y-1/2">
+                <!-- play icon -->
+                <div class="h-9 w-9 rounded-md grid place-items-center border-2 border-cyan-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-cyan-400"
+                    viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Bottom gesture bar -->
+    <div class="fixed bottom-2 left-1/2 -translate-x-1/2 h-1.5 w-36 rounded-full bg-white/50"></div>
+  </div>
+</body>
+
+</html>
